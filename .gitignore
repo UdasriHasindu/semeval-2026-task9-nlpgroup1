@@ -1,0 +1,76 @@
+# ------------------------------------------------------------------------------
+# Python
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+.uv/
+.uv-cache/
+
+# uv lock temporary cache
+uv.lock.backup
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Logs
+*.log
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+jupyter_cache/
+.jupyter/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local configuration files
+*.local
+*.env
+.env.*
+.envrc
+
+# ------------------------------------------------------------------------------
+# Project-specific
+# ------------------------------------------------------------------------------
+# Ignore data files unless explicitly needed for research
+data/
+datasets/
+results/
+outputs/
+models/
+checkpoints/
+
+# If using Supabase / API keys in config
+supabase/.temp/
+keys.json
+secret.json
