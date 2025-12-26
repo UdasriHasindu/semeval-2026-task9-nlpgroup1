@@ -8,7 +8,6 @@ __pycache__/
 *.so
 
 # Virtual environments
-.env
 .venv
 env/
 venv/
@@ -44,7 +43,6 @@ jupyter_cache/
 .jupyter/
 
 # Editor / IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -56,7 +54,6 @@ Thumbs.db
 # Local configuration files
 *.local
 *.env
-.env.*
 .envrc
 
 # ------------------------------------------------------------------------------
@@ -74,3 +71,5 @@ checkpoints/
 supabase/.temp/
 keys.json
 secret.json
+config.bat
+node_modules
